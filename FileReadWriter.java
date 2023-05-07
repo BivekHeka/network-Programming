@@ -8,9 +8,9 @@ public class FileReadWriter {
         // Write
         try {
             File file = new File("index.html");
-            FileWriter file = new FileWriter("FileReadWriter.txt");
-            file.write("Hello From Nischal!");
-            file.close();
+            FileWriter file2 = new FileWriter("FileReadWriter.txt");
+            file2.write("Hello From Nischal!");
+            file2.close();
             System.out.println("Write File Success");
         } catch (Exception e) {
             System.out.println(e);
